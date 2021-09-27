@@ -20,8 +20,7 @@ def main():
             print("You guessed correctly!")
         else:
             print("You guessed incorrectly.")
-
-        print("The correct answer is {0}.".format(answer))
+            print("The correct answer is {0}.".format(answer))
     except Exception:
         print("Invalid Input.")
 
